@@ -10,5 +10,5 @@ printf("percentage is : %d",  calculatePercentage( a, b,  c));
     return 0;
  }
  int calculatePercentage(int a,int b, int c){
-    return ((a+b+c)/3)*100;
+    return ((a+b+c)/3);
  }
