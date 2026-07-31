@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+     
+    int tables[2][10];
+
+     
+    for (int i = 0; i < 10; i++) {
+        tables[0][i] = 2 * (i + 1);  
+        tables[1][i] = 3 * (i + 1);  
+    }
+
+    // Print the stored tables
+    printf("Table of 2: ");
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", tables[0][i]);
+    }
+    
+    printf("\nTable of 3: ");
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", tables[1][i]);
+    }
+
+    return 0;
+}
