@@ -10,7 +10,7 @@ int main() {
         tables[1][i] = 3 * (i + 1);  
     }
 
-    // Print the stored tables
+     
     printf("Table of 2: ");
     for (int i = 0; i < 10; i++) {
         printf("%d ", tables[0][i]);
