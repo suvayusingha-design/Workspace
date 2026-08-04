@@ -16,5 +16,5 @@ slice(str,3,6);
         newStr[j]= str[i];
     }
     newStr[j]='\0';
-    puts(newStr)
+    puts(newStr);
   }
