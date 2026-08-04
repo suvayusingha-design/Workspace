@@ -12,7 +12,7 @@ return 0;
  }
  void salting(char password[]){
     char salt[] = "123";
-    char newPass[200];
+    char newPass[300];
 strcpy(newPass,password);
     strcat(newPass,salt);
     puts(newPass);
