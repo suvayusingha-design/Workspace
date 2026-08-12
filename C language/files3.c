@@ -8,5 +8,6 @@ while(ch != EOF){
     printf("%c",ch);
     ch=fgetc(fptr);
 }
+fclose(fptr);
 return 0;
 }
