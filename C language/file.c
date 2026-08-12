@@ -6,9 +6,9 @@ int main(){
     if(fptr==NULL){
         printf("File does not exist");
     
-    }
+    }else{fclose(fptr);}
+
     
-    fclose(fptr);
     return 0;
 
 }
