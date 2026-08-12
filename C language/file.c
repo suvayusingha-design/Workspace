@@ -7,6 +7,7 @@ int main(){
         printf("File does not exist");
     
     }
+    
     fclose(fptr);
     return 0;
 
