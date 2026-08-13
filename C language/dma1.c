@@ -13,5 +13,6 @@
         printf("%d\n",ptr[i]);
        
     }
+    
      return 0;
  }
